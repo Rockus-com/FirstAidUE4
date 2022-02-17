@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirstAid</string>
+    <string name="hello_world">Hello World</string>
+    <string name="go_back">Вернуться назад</string>
+    <string name="loss_of_consciousness">Потеря сознания</string>
+    <string name="loss_of_consciousness_warning1">(!) Если вы видите, что человек падает, не дайте ему упасть, чтобы предотвратить травмы головы у падающего человека</string>
+    <string name="loss_of_consciousness_do1">(1) Оцените состояние человека: есть ли пульс, дышит ли он. Пострадавшего следует уложить на бок, чтобы предотвратить западание языка. Ноги нужно приподнять, чтобы создался отток крови из нижней части тела и поступлению крови в головной мозг.</string>
+</resources>
