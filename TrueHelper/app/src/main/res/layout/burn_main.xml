@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/burn_title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Ожог"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/do_burn_degree_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Определите, какая степень ожога у пострадавшего. Это можно сделать, нажав на кнопку 'Степени ожогов'. Далее вернуться на эту страницу и прочитать соответствующую инструкцию."
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/burn_about_degree"
+                    android:layout_width="266dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="burnDegree"
+                    android:text="Степени ожогов"
+                    app:cornerRadius="20dp"
+                    tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+                <TextView
+                    android:id="@+id/burn_degree_first"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="ПРИ ОЖОГЕ I СТЕПЕНИ"
+                    android:layout_marginTop="15dp"
+                    android:textAllCaps="true"
+                    android:textSize="23dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/do_burn_degree_first"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Поместите повреждённый участок под холодную воду на 15 минут, после чего наложите стирильную повязку."
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/burn_degree_second"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="ПРИ ОЖОГЕ II СТЕПЕНИ"
+                    android:layout_marginTop="15dp"
+                    android:textAllCaps="true"
+                    android:textSize="23dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/do_burn_degree_second"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Если кожа осталась целостной, то поместите повреждённый участок под холодную воду на 15 минут, после чего наложите стирильную повязку."
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/burn_degree_third"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="ПРИ ОЖОГЕ III СТЕПЕНИ"
+                    android:layout_marginTop="15dp"
+                    android:textAllCaps="true"
+                    android:textSize="23dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/do_burn_degree_third"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Травмированный участок обязательно покрыть чистым сухим полотенцем или тряпкой. Вызвать скорую помощь или добраться до ближайшего медицинского пункта"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/burn_degree_fourth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="ПРИ ОЖОГЕ IV СТЕПЕНИ"
+                    android:layout_marginTop="15dp"
+                    android:textAllCaps="true"
+                    android:textSize="23dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/do_burn_degree_fourth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Принять обезболивающее и незамедлительно вызвать скорую помощь."
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/burn_leave_main_menu"
+                    android:layout_width="266dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="buttonLeave"
+                    android:text="Назад"
+                    app:cornerRadius="20dp"
+                    tools:ignore="UsingOnClickInXml,HardcodedText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

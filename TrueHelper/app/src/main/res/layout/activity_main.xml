@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <Button
+                    app:cornerRadius="20dp"
+                    android:onClick="LOCGo"
+                    android:id="@+id/LOC"
+                    android:layout_width="266dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Потеря сознания"
+                    tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+                <Button
+                    app:cornerRadius="20dp"
+                    android:onClick="bloodGo"
+                    android:id="@+id/blood"
+                    android:layout_width="266dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Кровотечение"
+                    tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+                <Button
+                    app:cornerRadius="20dp"
+                    android:onClick="burnGo"
+                    android:id="@+id/burn"
+                    android:layout_width="266dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Ожоги"
+                    tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+                <Button
+                    app:cornerRadius="20dp"
+                    android:onClick="fractureGo"
+                    android:id="@+id/fracture"
+                    android:layout_width="266dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Переломы"
+                    tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+                <Button
+                    app:cornerRadius="20dp"
+                    android:onClick="snakeGo"
+                    android:id="@+id/snake"
+                    android:layout_width="266dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Укус змеи"
+                    tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+                <Button
+                    app:cornerRadius="20dp"
+                    android:onClick="miteGo"
+                    android:id="@+id/mite"
+                    android:layout_width="266dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Укус клеща"
+                    tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+                <Button
+                    app:cornerRadius="20dp"
+                    android:onClick="poisoningGo"
+                    android:id="@+id/poisoning"
+                    android:layout_width="266dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Пищевое Отравление"
+                    tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
